@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2020-09-18T12:55:14.174797+02:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      tags:
+      - wordpress-database
+      version: 7.x.x
+    deprecated: true
+    description: Maurizio Lupini, Wordpress Chart.
+    digest: 4d406f82efe96e53418af90f041736e6ef1f432847ee2e7324cb0de95eae8970
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.0.3.tgz
+    version: 9.0.3
+generated: "2020-09-18T12:55:14.170923+02:00"
